@@ -70,6 +70,8 @@ content.addEventListener("click", (event) => {
 });
 
 function handleNumber(num) {
+    if(num === '.' && displayValue.includes('.')) 
+        return;
     display = document.querySelector(".display");
     // We need to replace display content when the first number is selected
     // after clicking an op button

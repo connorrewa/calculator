@@ -65,6 +65,7 @@ button {
     border-radius: 6px;
     flex: 1 0 0;
     background-color: #EEEEEE;
+    color: black;
 }
 button:hover {
     background-color: #e0e0e0;
