@@ -4,7 +4,7 @@ body {
 
 * {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 34px;
+    font-size: 22px;
     box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     gap: 16px;
     height: 550px;
-    width: 350px;
+    width: 400px;
     justify-content: center;
     align-items: center;
     padding: 16px;
@@ -58,8 +58,9 @@ button.delete:active {
 
 
 button {
-    font-size: 28px;
+    font-size: 20px;
     padding-block: 12px;
+    padding-inline: 12px;
     border: 2px solid black;
     border-radius: 6px;
     flex: 1 0 0;
