@@ -63,6 +63,9 @@ content.addEventListener("click", (event) => {
         }
     }
     const display = document.querySelector(".display");
+    if (Number(displayValue) > 999999999999999) {
+        displayValue = 'ERR';
+    }
     display.textContent = displayValue;
 });
 
